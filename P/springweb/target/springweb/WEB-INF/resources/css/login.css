@@ -1,0 +1,36 @@
+@CHARSET "ISO-8859-1";
+
+.background {
+	background-image: url("../IMAGE/loginpageimg.jpg");
+	height: 100%;
+	position: absolute;
+	background-attachment: fixed;
+}
+
+.login-box {
+	align: right;
+	color: #ffffff;
+	font-family: "Gabriola";
+	font-size: 10px;
+}
+
+.form-group {
+	align: middle;
+	color: #ffffff;
+	font-family: "Gabriola";
+	font-size: 20px;
+}
+
+p.lead {
+	align: middle;
+	color: #ffffff;
+	font-family: "Gabriola";
+	font-size: 80px;
+}
+
+h2, h3 {
+	align: middle;
+	color: #ffffff;
+	font-family: "Gabriola";
+	font-size: 80px;
+}
