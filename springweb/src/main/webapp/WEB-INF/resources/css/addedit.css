@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+.form:form{
+	background-color:#ff8000;
+	width:50%;
+	box-shadow:0px 0px 20pxrgba(#000,7);
+	border-radius:30px;
+	background:transparent;
+}
+.bg{
+	background-color:#ff8000;
+	width:50%;
+}

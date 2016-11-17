@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+
+#background {
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-attachment: fixed;
+}
+
+#bg-img {
+	width: 100%;
+	position: absolute;
+	filter: blur(5px);
+}
+
+body{
+	background-color:#000000;
+}
+h1 {
+	align: middle;
+	color: #fb7d00;
+	font-family: "Gabriola";
+	font-size: 40px;
+}
+
+.form-group {
+	align: middle;
+	color: #fb7d00;
+	font-family: "Gabriola";
+	font-size: 20px;
+}

@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+h3 {
+	/* align: middle; */
+	color: #ff8306;
+	font-family: "Gabriola";
+	font-size: 50px;
+}
+
+.form-group {
+	align: middle;
+	color: #000000;
+	font-family: "Gabriola";
+	font-size: 20px;
+}
