@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header-background {
+	background-color: white;
+	border-bottom: 1px solid #D3D3D3;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: brown;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: brown;
+	color: white;
+}
+
+.navbar-right {
+	margin-right: 0px;
+}
+
+.lightening {
+	margin-top: 4%;
+	padding-top: 0.5%;
+	border-bottom: 1px solid #D3D3D3;
+	color: brown;
+	font-family: "Gabriola";
+	text-align: center;
+	font-size: 60px;
+}
+
+.carousel {
+	width: 815px;
+}
+
+.imageclass {
+	margin-left: 260px;
+	width: 910px;
+}
+
+th{
+	color:white;
+	background-color: brown;
+}

@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+.background {
+	background-image: url("../IMAGE/Street Lamps Wallpapers 2.jpg");
+	background-size: cover;
+	width: 100%;
+	position: relative;
+	background-attachment: fixed;
+	color: white;
+	position: relative;
+}
+
+p.lead {
+	font-family: "Gabriola";
+	font-size: 40px;
+}
+
+.btn {
+	background-color: brown;
+	border-color: brown;
+}
+
+.well1 {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+
+.thankyou {
+	padding-top: 200px;
+	margin: 0 0 300px 300px;
+}
