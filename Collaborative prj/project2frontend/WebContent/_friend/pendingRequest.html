@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="css/friendslist.css" />
+<title>Insert title here</title>
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h1>Pending Requests</h1>
+	<table class="table table-hover">
+		<tr ng-repeat="p in pendingRequest">
+			<td>{{p.fromId}}</td>
+			<td><a href="" ng-click="updatePendingRequest(p.fromId,'A')"
+				class="btn btn-info btn-md">Accept</a></td>
+			<td><a href="" ng-click="updatePendingRequest(p.fromId,'D')"
+				class="btn btn-warning btn-md">Deny</a></td>
+		</tr>
+
+	</table>
+</body>
+</html>
