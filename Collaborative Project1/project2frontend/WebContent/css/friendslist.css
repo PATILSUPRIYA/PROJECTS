@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+
+h1 {
+	margin: 5% 0;
+	color: #000091;
+	background: none;
+	font-family: "Gabriola";
+	font-size: 40px;
+	border-bottom: 0.5px solid #D3D3D3;
+}
+
+td {
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}

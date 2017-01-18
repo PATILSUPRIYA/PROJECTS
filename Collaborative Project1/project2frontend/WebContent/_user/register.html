@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="css/register.css" />
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="container">
+		<form>
+			<div class="form-group row">
+				<label for="username" class="col-sm-2 col-form-label">Username</label>
+				<div class="col-sm-10">
+					<input type="text" id="username" placeholder="username"
+						ng-model="user.username">
+				</div>
+			</div>
+
+			<div class="form-group row">
+				<label for="password" class="col-sm-2 col-form-label">Password</label>
+				<div class="col-sm-10">
+					<input type="password" id="password" placeholder="Password"
+						ng-model="user.password">
+				</div>
+			</div>
+
+			<div class="form-group row">
+				<label for="email" class="col-sm-2 col-form-label">Email</label>
+				<div class="col-sm-10">
+					<input type="email" id="email" placeholder="Email"
+						ng-model="user.email">
+				</div>
+			</div>
+
+			<fieldset class="form-group row">
+				<legend class="col-form-legend col-sm-2">Select role</legend>
+
+				<div class="col-sm-10">
+					<div class="form-check">
+						<label class="form-check-label"> <input
+							class="form-check-input" type="radio" name="gridRadios"
+							ng-model="user.role" value="STUDENT"> Student
+						</label>
+					</div>
+
+					<div class="form-check">
+						<label class="form-check-label"> <input
+							class="form-check-input" type="radio" name="gridRadios"
+							ng-model="user.role" value="ALUMNI"> Alumni
+						</label>
+					</div>
+
+					<div class="form-check disabled">
+						<label class="form-check-label"> <input
+							class="form-check-input" type="radio" name="gridRadios"
+							ng-model="user.role" value="EMPLOYEE"> Employee
+						</label>
+					</div>
+				</div>
+			</fieldset>
+
+			<div class="form-group row">
+				<div class="offset-sm-2 col-sm-20">
+					<button type="submit" class="btn btn-primary"
+						ng-click="registerUser()" value="Register">Register</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	{{errorMessage}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 	<form>
+		<table>
+			<tr>
+				<td>Username</td>
+				<td><input type="text" ng-model="user.username"></td>
+			</tr>
+			<tr>
+				<td>password</td>
+				<td><input type="password" ng-model="user.password"></td>
+			</tr>
+			<tr>
+				<td>email</td>
+				<td><input type="text" ng-model="user.email"></td>
+			</tr>
+
+
+
+			<tr>
+				<td>Select role</td>
+				<td><input type="radio" ng-model="user.role" value="STUDENT">Student
+					<input type="radio" ng-model="user.role" value="ALUMNI">Alumni
+					<input type="radio" ng-model="user.role" value="EMPLOYEE">Employee</td>
+			</tr>
+
+			<tr>
+				<td><input type="submit" ng-click="registerUser()"
+					value="Register"></td>
+			</tr>
+
+
+		</table>
+
+	</form>
+	{{errorMessage}} -->
+
+</body>
+</html>
